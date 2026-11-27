@@ -7,7 +7,7 @@ use work.font5x7_pkg.all;
 entity hangman_renderer is
     port (
         px_x         : in  integer range 0 to 799;
-        px_y         : in  integer range 0 to 524;
+        px_y         : in  integer range 0 to 524;d
         vde          : in  std_logic;
         word_idx     : in  integer range 0 to NUM_WORDS - 1;
         cursor_idx   : in  letter_idx_t;
@@ -44,8 +44,7 @@ architecture rtl of hangman_renderer is
         return false;
     end function is_in_word;
 begin
-
-    process(all)
+    process(px_x, px_y, vde, word_idx, cursor_idx, guessed_mask, wrong_count, score, game_state)
         variable r, g, b    : std_logic_vector(7 downto 0);
         variable cur_entry  : word_entry_t;
         variable wrong_list : wrong_arr_t;
@@ -88,9 +87,6 @@ begin
             g := x"00";
             b := x"00";
         else
-            -- =================================================================
-            -- 1. JUDUL "HANGMAN" (x: 236..403, y: 20..47, 7 huruf x 24px)
-            -- =================================================================
             if (px_x >= 236 and px_x < 404) and (px_y >= 20 and px_y < 48) then
                 char_idx := (px_x - 236) / 24;
                 local_x  := (px_x - 236) mod 24;
