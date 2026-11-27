@@ -4,32 +4,33 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
 # IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
 # SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-# Start of session at: Fri Nov 27 15:01:47 2026
-# Process ID         : 21800
-# Current directory  : C:/Users/Lenovo/OneDrive/Documents/FINPROPSD-HangMan/finpropsd-hangman
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11080 C:\Users\Lenovo\OneDrive\Documents\FINPROPSD-HangMan\finpropsd-hangman\finpropsd-hangman.xpr
-# Log file           : C:/Users/Lenovo/OneDrive/Documents/FINPROPSD-HangMan/finpropsd-hangman/vivado.log
-# Journal file       : C:/Users/Lenovo/OneDrive/Documents/FINPROPSD-HangMan/finpropsd-hangman\vivado.jou
-# Running On         : Phoebe
+# Start of session at: Fri Nov 27 15:43:10 2026
+# Process ID         : 32528
+# Current directory  : C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent31428 C:\Users\najwa\Downloads\FINPROPSD-HangMan\finpropsd-hangman\finpropsd-hangman.xpr
+# Log file           : C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman/vivado.log
+# Journal file       : C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman\vivado.jou
+# Running On         : LAPTOP-7F8CKQOF
 # Platform           : Windows 11
-# Operating System   : 26300
-# Processor Detail   : AMD Ryzen 7 7435HS                             
-# CPU Frequency      : 3094 MHz
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13420H
+# CPU Frequency      : 2611 MHz
 # CPU Physical cores : 8
-# CPU Logical cores  : 16
-# Host memory        : 34029 MB
-# Swap memory        : 2147 MB
-# Total Virtual      : 36176 MB
-# Available Virtual  : 19333 MB
+# CPU Logical cores  : 12
+# Host memory        : 16791 MB
+# Swap memory        : 25769 MB
+# Total Virtual      : 42560 MB
+# Available Virtual  : 12969 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Lenovo/OneDrive/Documents/FINPROPSD-HangMan/finpropsd-hangman/finpropsd-hangman.xpr
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Lenovo/OneDrive/Documents/FINPROPSD-HangMan/finpropsd-hangman/finpropsd-hangman.gen/sources_1'.
-WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/Lenovo/OneDrive/Documents/FINPROPSD-HangMan/finpropsd-hangman/finpropsd-hangman.ip_user_files'.
+open_project C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman/finpropsd-hangman.xpr
+INFO: [Project 1-313] Project file moved from '$PPRDIR' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman/finpropsd-hangman.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman/finpropsd-hangman.ip_user_files'.
 Scanning sources...
 Finished scanning sources
 WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2026.1/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 1730.203 ; gain = 274.520
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 1736.312 ; gain = 275.027

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Nov 27 15:31:24 2026
+# Process ID         : 5836
+# Current directory  : C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent23076 C:\Users\najwa\Downloads\FINPROPSD-HangMan\finpropsd-hangman\finpropsd-hangman.xpr
+# Log file           : C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman/vivado.log
+# Journal file       : C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman\vivado.jou
+# Running On         : LAPTOP-7F8CKQOF
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13420H
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 16791 MB
+# Swap memory        : 25769 MB
+# Total Virtual      : 42560 MB
+# Available Virtual  : 13046 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/najwa/Downloads/FINPROPSD-HangMan/finpropsd-hangman/finpropsd-hangman.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
